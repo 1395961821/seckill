@@ -22,7 +22,6 @@ class Api extends Base
         self::$APCU_LOCAL_STOCK     = sprintf(self::$APCU_LOCAL_STOCK, $productId);
         self::$APCU_LOCAL_USE       = sprintf(self::$APCU_LOCAL_USE, $productId);
         self::$APCU_LOCAL_COUNT     = sprintf(self::$APCU_LOCAL_COUNT, $productId);
-        self::$APCU_LOCAL_COUNT     = sprintf(self::$APCU_LOCAL_COUNT, $productId);
         self::$userId               = $userId;
         self::$productId            = $productId;
     }
